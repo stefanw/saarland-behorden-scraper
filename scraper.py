@@ -128,7 +128,7 @@ def scrape_public_body(root, url):
         "website_dump": "",
         "description": '',
         "parent__name": "",
-        "topic__slug": get_topic(name),
+        "tags": get_topic(name),
     }
 
 
